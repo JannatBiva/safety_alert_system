@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raspberry Pi Safety Alert System</title>
+</head>
+<body>
+    <h1>Safety Alert System</h1>
+    <p>Status: {{ status }}</p>
+    <form action="/acknowledge" method="post">
+        <button type="submit">Acknowledge Alert</button>
+    </form>
+</body>
+</html>
